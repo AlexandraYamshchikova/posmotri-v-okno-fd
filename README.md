@@ -1,2 +1,1 @@
-_#Проектная работа_ "Посмотри в окно".
-_Выполнила:_ Александра Ямщикова.
+https://github.com/AlexandraYamshchikova/posmotri-v-okno-fd/
