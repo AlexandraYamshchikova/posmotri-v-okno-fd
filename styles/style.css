@@ -66,11 +66,8 @@ ol {
 /*Конец кастомного скроллбара*/
 
 .result {
-  /*display: flex;
-  flex-direction: column;*/
   grid-area: result;
   padding-top: 78px;
-  /*gap: 16px;*/
 }
 
 .content__details {
@@ -83,7 +80,6 @@ ol {
 .content {
   display: grid;
   justify-content: center;
-  /*align-content: end;*/
   grid-template-columns: 711px 399px;
   grid-template-areas: "result content__details";
   column-gap: 30px;
@@ -131,6 +127,21 @@ ol {
   padding-top: 2px;
 }
 
+.content__list-item {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.content__card-link {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.content__card-link_current {
+  background-color: #545050;
+}
+
 .content__video-card {
   display: flex;
   justify-content: space-between;
@@ -138,6 +149,7 @@ ol {
   max-width: 390px;
   width: 100%;
   overflow: hidden;
+  background-color: transparent;
 }
 
 .content__video-card-thumbnail {
@@ -145,20 +157,6 @@ ol {
   height: 103px;
   object-position: center;
   object-fit: cover;
-}
-
-.content__list-item {
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-.content__card-link {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.content__card-link_current {
-  background-color: #545050;
 }
 
 .content__video-card:hover {
@@ -188,6 +186,7 @@ ol {
 
 .content__video-card-description-container {
   width: 196px;
+  background-color: transparent;
 }
 
 .content__video-card-description {
@@ -195,6 +194,7 @@ ol {
   line-height: 16.2px;
   line-clamp: initial;
   -webkit-line-clamp: initial;
+  background-color: transparent;
 }
 
 .content__list {
@@ -202,6 +202,7 @@ ol {
   flex-direction: column;
   gap: 30px;
   padding-top: 2px;
+  background-color: transparent;
 }
 
 .search-form {
@@ -303,7 +304,10 @@ ol {
   width: 225px;
   font-family: inherit;
   font-size: inherit;
+  font-weight: normal;
   appearance: none;
+  color: #fff;
+  line-height: 21.6px;
 }
 
 .search-form__textfield:focus {
@@ -324,8 +328,9 @@ ol {
   align-items: center;
   width: 19px;
   height: 19px;
-  /*background-color: transparent;*/
+  background-color: transparent;
   border: 1px solid #ffffff;
+  padding: 1px;
 }
 
 .search-form__label:has(.search-form__checkbox:focus-visible) {
