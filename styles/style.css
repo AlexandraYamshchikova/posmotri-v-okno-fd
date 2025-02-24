@@ -137,22 +137,22 @@ ol {
 }
 
 .content__card-link:active {
-  background-color: #545050;  /*Исправление после первого ревью*/
+  background-color: #545050; /*Исправление после первого ревью*/
 }
 
 .content__card-link:hover {
   text-decoration: underline;
-  cursor: pointer;              /*Исправление после первого ревью*/
+  cursor: pointer; /*Исправление после первого ревью*/
 }
 
 .content__card-link:focus {
-  border: none;                 /*Исправление после первого ревью*/
+  border: none; /*Исправление после первого ревью*/
 }
 
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
-  box-shadow: none;             /*Исправление после первого ревью*/
+  box-shadow: none; /*Исправление после первого ревью*/
 }
 
 .content__card-link_current {
@@ -193,15 +193,15 @@ ol {
 
 .content__video-card-description {
   display: -webkit-box;
-   -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
-     line-clamp: 4;
-      overflow: hidden; 
-      text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
   text-wrap: wrap;
   font-family: "Fira Sans Condensed", sans-serif;
   line-height: 16.2px;
-  background-color: transparent;                       /*Исправление после первого ревью*/
+  background-color: transparent; /*Исправление после первого ревью*/
 }
 
 .content__list {
@@ -226,24 +226,24 @@ ol {
   font-weight: 700;
   font-family: inherit;
   font-size: inherit;
-  min-height: 34px;                      /*Исправление после первого ревью*/
+  min-height: 34px; /*Исправление после первого ревью*/
   background-color: transparent;
   border: 1px solid #ffffff;
 }
 
 .button:hover {
   cursor: pointer;
-  text-decoration: underline;       /*Исправление после первого ревью*/
+  text-decoration: underline; /*Исправление после первого ревью*/
 }
 
 .button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
-  box-shadow: none;           /*Исправление после первого ревью*/ 
+  box-shadow: none; /*Исправление после первого ревью*/
 }
 
 .button:active {
-  background-color: #545050;      /*Исправление после первого ревью*/
+  background-color: #545050; /*Исправление после первого ревью*/
 }
 
 .search-form__submit-button {
@@ -268,7 +268,7 @@ ol {
 
 .search-form__fieldset {
   border-color: transparent;
-  min-height: 54px;                /*Исправление после первого ревью*/
+  min-height: 54px; /*Исправление после первого ревью*/
   border: none;
 }
 
@@ -310,7 +310,7 @@ ol {
   outline: 1px solid #fff;
   outline-offset: 1px;
   caret-color: #fff;
-}                                                    /*Исправление после первого ревью*/
+} /*Исправление после первого ревью*/
 
 /*Псевдо-чекбокс*/
 
