@@ -95,8 +95,8 @@ ol {
 }
 
 .result__video {
-  width: 100%; /*Изменено на 100% по рекомендации ревьюера*/
-  height: 100%; /*Изменено на 100% по рекомендации ревьюера*/
+  width: 100%;
+  height: 100%;
   object-position: center;
   object-fit: cover;
 }
@@ -137,22 +137,22 @@ ol {
 }
 
 .content__card-link:active {
-  background-color: #545050; /*Исправление после первого ревью*/
+  background-color: #545050;
 }
 
 .content__card-link:hover {
   text-decoration: underline;
-  cursor: pointer; /*Исправление после первого ревью*/
+  cursor: pointer;
 }
 
 .content__card-link:focus {
-  border: none; /*Исправление после первого ревью*/
+  border: none;
 }
 
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
-  box-shadow: none; /*Исправление после первого ревью*/
+  box-shadow: none;
 }
 
 .content__card-link_current {
@@ -201,7 +201,7 @@ ol {
   text-wrap: wrap;
   font-family: "Fira Sans Condensed", sans-serif;
   line-height: 16.2px;
-  background-color: transparent; /*Исправление после первого ревью*/
+  background-color: transparent;
 }
 
 .content__list {
@@ -226,24 +226,24 @@ ol {
   font-weight: 700;
   font-family: inherit;
   font-size: inherit;
-  min-height: 34px; /*Исправление после первого ревью*/
+  min-height: 34px;
   background-color: transparent;
   border: 1px solid #ffffff;
 }
 
 .button:hover {
   cursor: pointer;
-  text-decoration: underline; /*Исправление после первого ревью*/
+  text-decoration: underline;
 }
 
 .button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
-  box-shadow: none; /*Исправление после первого ревью*/
+  box-shadow: none;
 }
 
 .button:active {
-  background-color: #545050; /*Исправление после первого ревью*/
+  background-color: #545050;
 }
 
 .search-form__submit-button {
@@ -267,8 +267,7 @@ ol {
 }
 
 .search-form__fieldset {
-  border-color: transparent;
-  min-height: 54px; /*Исправление после первого ревью*/
+  border-color: transparent;   /*После второго ревью убран height*/
   border: none;
 }
 
@@ -310,7 +309,7 @@ ol {
   outline: 1px solid #fff;
   outline-offset: 1px;
   caret-color: #fff;
-} /*Исправление после первого ревью*/
+}
 
 /*Псевдо-чекбокс*/
 
